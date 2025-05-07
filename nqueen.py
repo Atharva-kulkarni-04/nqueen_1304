@@ -9,7 +9,7 @@ def issafe(i,j):
             return False
     for n in range(N):
         for m in range(N):
-            if m+n == i+j  or m-n == i-j:
+            if n+m == i+j  or n-m == i-j:
                 if b[n][m] == 1:
 
                     return False
